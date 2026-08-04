@@ -14,18 +14,18 @@ An organized collection of awesome repositories, tools, websites, and resources 
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="25" height="25" alt="Robot" align="absmiddle"/> AI Tools
+<h2 id="ai-tools"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="25" height="25" alt="Robot" align="absmiddle"/> AI Tools</h2>
 
 - [CodeRabbit](https://coderabbit.ai) — AI-powered code review tool.
 - [Blink](https://blink.new) — build full-stack custom apps with AI, prompt-to-app.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="25" height="25" alt="Laptop" align="absmiddle"/> Dev Tools
+<h2 id="dev-tools"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="25" height="25" alt="Laptop" align="absmiddle"/> Dev Tools</h2>
 
 - [123apps](https://123apps.com) — huge library of free online tools (edit, convert, compress video/audio/PDF, etc).
 - [CustomGraph](https://customgraph.com) — generate and print custom graph paper / worksheets.
 - [roadmap.sh](https://roadmap.sh) — learning roadmaps and interview prep for devs.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Artist%20Palette.png" width="25" height="25" alt="Artist Palette" align="absmiddle"/> Design
+<h2 id="design"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Artist%20Palette.png" width="25" height="25" alt="Artist Palette" align="absmiddle"/> Design</h2>
 
 - [Bioicons](https://bioicons.com) — free high-quality science icons for figures and presentations.
 - [React Bits](https://reactbits.dev) — hundreds of animated React UI components.
@@ -35,12 +35,12 @@ An organized collection of awesome repositories, tools, websites, and resources 
 - [Chromateque](https://chromateque.netlify.app) — color palette / gradient inspiration tool.
 - [BrightIcons](https://brighticons.netlify.app) — icon set/browser for UI projects.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="25" height="25" alt="Books" align="absmiddle"/> Learning
+<h2 id="learning"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="25" height="25" alt="Books" align="absmiddle"/> Learning</h2>
 
 - [OpenLearn (The Open University)](https://open.edu) — thousands of free courses with certificates.
 - [Class Central](https://classcentral.com) — search engine / aggregator for online courses (MOOCs) from top universities.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="25" height="25" alt="Graduation Cap" align="absmiddle"/> Certificates
+<h2 id="certificates"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="25" height="25" alt="Graduation Cap" align="absmiddle"/> Certificates</h2>
 
 - [Cisco Networking Academy (NetAcad)](https://netacad.com) — free networking/IT/cybersecurity courses and certs.
 - [IBM SkillsBuild](https://skills.yourlearning.ibm.com/) — free IBM courses and digital credentials.
@@ -61,7 +61,7 @@ An organized collection of awesome repositories, tools, websites, and resources 
 - [Offensive Security](https://www.offsec.com/) — pentesting training and certs (OSCP, etc).
 - [Credly](https://www.credly.com/) — platform for managing and sharing digital badges/certificates.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" width="25" height="25" alt="Toolbox" align="absmiddle"/> Repos
+<h2 id="repos"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" width="25" height="25" alt="Toolbox" align="absmiddle"/> Repos</h2>
 
 - [public-apis/public-apis](https://github.com/public-apis) — massive collaborative list of free public APIs.
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — guides for building your own git, docker, redis, etc from scratch.
@@ -69,7 +69,7 @@ An organized collection of awesome repositories, tools, websites, and resources 
 - [Tarikul-Islam-Anik/Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis) — animated Fluent-style emoji set.
 - [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) — icons for showcasing skills/tech stacks in READMEs.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="25" height="25" alt="Globe Showing Americas" align="absmiddle"/> Misc / Cool Sites
+<h2 id="misc--cool-sites"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="25" height="25" alt="Globe Showing Americas" align="absmiddle"/> Misc / Cool Sites</h2>
 
 - [MotionBGs](https://motionbgs.com) — huge library (9,000+) of free live wallpapers for desktop/phone.
 
