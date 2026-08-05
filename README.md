@@ -1,21 +1,34 @@
-# Awesome Links
+<p align="center">
+  <a href="https://github.com/nikomarinovic/awesome-links">
+    <img src="https://brighticons.netlify.app/icons?i=awesomelinks&size=256" alt="Logo" />
+  </a>
+</p>
+<h1 align="center">
+  Awesome Links
+</h1>
 
-An organized collection of useful repositories, tools, websites, and resources for programming, cybersecurity, Linux, AI, web development, and design.
+<p align="center">
+  Curated collection of tools, resources, and repositories for programming, design, cybersecurity, and AI.
+</p>
+
+---
 
 ## Table of Contents
 
 - [AI Tools](#ai-tools)
-- [Dev Tools](#dev-tools)
-- [Design](#design)
-- [UI Libraries & Frameworks](#ui-libraries--frameworks)
-- [Learning](#learning)
+- [Developer Utilities](#developer-utilities)
+- [UI Component Libraries & Frameworks](#ui-component-libraries--frameworks)
+- [Design & Inspiration](#design--inspiration)
+- [Learning & Documentation](#learning--documentation)
 - [Certificates](#certificates)
 - [Repos](#repos)
 - [Misc / Cool Sites](#misc--cool-sites)
 
 ---
 
-## AI Tools
+<h2 id="ai-tools">AI Tools</h2>
+
+Tools that use AI to generate code, apps, designs, or visuals.
 
 - [CodeRabbit](https://coderabbit.ai) — AI-powered code review tool.
 - [Blink](https://blink.new) — build full-stack custom apps with AI, prompt-to-app.
@@ -24,40 +37,51 @@ An organized collection of useful repositories, tools, websites, and resources f
 - [Blueprint](https://blueprint.am) — AI assistant for hardware design and product development, by 3E8 Robotics.
 - [Dora](https://dora.run) — build and ship 3D/animated websites with AI, no code required.
 
-## Dev Tools
+<h2 id="developer-utilities">Developer Utilities</h2>
 
-- [123apps](https://123apps.com) — huge library of free online tools (edit, convert, compress video/audio/PDF, etc).
-- [CustomGraph](https://customgraph.com) — generate and print custom graph paper / worksheets.
-- [roadmap.sh](https://roadmap.sh) — learning roadmaps and interview prep for devs.
+Practical everyday tools for writing, converting, and debugging.
+
 - [IT-Tools](https://it-tools.tech) — collection of handy online utilities for developers (token generators, hashing, converters, and more).
 - [CSVTool](https://csvtool.com) — browser-based tools for viewing, editing, and converting CSV files.
+- [123apps](https://123apps.com) — huge library of free online tools (edit, convert, compress video/audio/PDF, etc).
+- [CustomGraph](https://customgraph.com) — generate and print custom graph paper / worksheets.
 - [VisuAlgo](https://visualgo.net) — visualizations of data structures and algorithms through animation.
 
-## Design
+<h2 id="ui-component-libraries--frameworks">UI Component Libraries & Frameworks</h2>
 
-- [Bioicons](https://bioicons.com) — free high-quality science icons for figures and presentations.
-- [React Bits](https://reactbits.dev) — hundreds of animated React UI components.
-- [Jitter](https://jitter.video) — fast and simple motion design / animation tool.
-- [3dsvg](https://3dsvg.design) — turn 2D SVGs into 3D animated graphics.
-- [Uiverse](https://uiverse.io) — community-made UI elements (buttons, cards, loaders) with copy-paste code.
-- [Chromateque](https://chromateque.netlify.app) — color palette / gradient inspiration tool.
-- [BrightIcons](https://brighticons.netlify.app) — icon set/browser for UI projects.
-- [Anime.js](https://animejs.com) — fast, versatile JavaScript library for animating SVG and other elements.
-
-## UI Libraries & Frameworks
+Component libraries for building interfaces.
 
 - [daisyUI](https://daisyui.com) — component library built on top of Tailwind CSS.
 - [Material UI (MUI)](https://mui.com) — React component library implementing Google's Material Design.
-- [shadcn/ui](https://ui.shadcn.com) — accessible, customizable React components you copy into your own codebase.
+- [shadcn/ui](https://ui.shadcn.com) — accessible, customizable React components you copy directly into your codebase.
+- [React Bits](https://reactbits.dev) — hundreds of animated React UI components.
+- [Uiverse](https://uiverse.io) — community-made UI elements (buttons, cards, loaders) with copy-paste code.
+
+<h2 id="design--inspiration">Design & Inspiration</h2>
+
+Icons, animation, and visual design tools.
+
+- [Bioicons](https://bioicons.com) — free high-quality science icons for figures and presentations.
+- [Anime.js](https://animejs.com) — fast, versatile JavaScript library for animating SVG and other elements.
+- [Jitter](https://jitter.video) — fast and simple motion design / animation tool.
+- [3dsvg](https://3dsvg.design) — turn 2D SVGs into 3D animated graphics.
+- [SvgAPI](https://svgapi.com) - 200K+ free SVG icons.
+- [Chromateque](https://chromateque.netlify.app) — color palette / gradient inspiration tool.
+- [BrightIcons](https://brighticons.netlify.app) — icon set/browser for UI projects.
+
+<h2 id="learning--documentation">Learning & Documentation</h2>
+
+Courses, references, and roadmaps.
+
 - [W3Schools](https://w3schools.com) — reference and tutorials for HTML, CSS, JavaScript, and other web technologies.
-
-## Learning
-
+- [roadmap.sh](https://roadmap.sh) — learning roadmaps and interview prep for devs.
 - [OpenLearn (The Open University)](https://open.edu) — thousands of free courses with certificates.
 - [Class Central](https://classcentral.com) — search engine / aggregator for online courses (MOOCs) from top universities.
 - [Skill-Lync Free Resources](https://resources.skill-lync.com) — free engineering roadmaps covering design, CAE, EV technology, and CFD.
 
-## Certificates
+<h2 id="certificates">Certificates</h2>
+
+Free or low-cost certifications, mostly IT and cybersecurity.
 
 - [Cisco Networking Academy (NetAcad)](https://netacad.com) — free networking/IT/cybersecurity courses and certs.
 - [IBM SkillsBuild](https://skills.yourlearning.ibm.com/) — free IBM courses and digital credentials.
@@ -78,7 +102,9 @@ An organized collection of useful repositories, tools, websites, and resources f
 - [Offensive Security](https://www.offsec.com/) — pentesting training and certs (OSCP, etc).
 - [Credly](https://www.credly.com/) — platform for managing and sharing digital badges/certificates.
 
-## Repos
+<h2 id="repos">Repos</h2>
+
+GitHub repositories worth bookmarking.
 
 - [public-apis/public-apis](https://github.com/public-apis) — massive collaborative list of free public APIs.
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — guides for building your own git, docker, redis, etc from scratch.
@@ -86,7 +112,9 @@ An organized collection of useful repositories, tools, websites, and resources f
 - [Tarikul-Islam-Anik/Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis) — animated Fluent-style emoji set.
 - [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) — icons for showcasing skills/tech stacks in READMEs.
 
-## Misc / Cool Sites
+<h2 id="misc--cool-sites">Misc / Cool Sites</h2>
+
+Everything else worth a look.
 
 - [MotionBGs](https://motionbgs.com) — huge library (9,000+) of free live wallpapers for desktop/phone.
 - [Versus](https://versus.com/en) — compare specs and features of smartphones, cities, graphics cards, and more, side by side.
