@@ -1,12 +1,13 @@
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="30" height="30" alt="Sparkles" align="absmiddle"/> Awesome Links
+# Awesome Links
 
-An organized collection of awesome repositories, tools, websites, and resources for programming, cybersecurity, Linux, AI, web development, and more.
+An organized collection of useful repositories, tools, websites, and resources for programming, cybersecurity, Linux, AI, web development, and design.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bookmark%20Tabs.png" width="25" height="25" alt="Bookmark Tabs" align="absmiddle"/> Table of Contents
+## Table of Contents
 
 - [AI Tools](#ai-tools)
 - [Dev Tools](#dev-tools)
 - [Design](#design)
+- [UI Libraries & Frameworks](#ui-libraries--frameworks)
 - [Learning](#learning)
 - [Certificates](#certificates)
 - [Repos](#repos)
@@ -14,18 +15,25 @@ An organized collection of awesome repositories, tools, websites, and resources 
 
 ---
 
-<h2 id="ai-tools"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="25" height="25" alt="Robot" align="absmiddle"/> AI Tools</h2>
+## AI Tools
 
 - [CodeRabbit](https://coderabbit.ai) — AI-powered code review tool.
 - [Blink](https://blink.new) — build full-stack custom apps with AI, prompt-to-app.
+- [Pomelli](https://labs.google.com/pomelli) — Google Labs tool that generates ideas, palettes, and design assets from a prompt.
+- [Napkin](https://napkin.ai) — turns written text into diagrams, charts, and visuals automatically.
+- [Blueprint](https://blueprint.am) — AI assistant for hardware design and product development, by 3E8 Robotics.
+- [Dora](https://dora.run) — build and ship 3D/animated websites with AI, no code required.
 
-<h2 id="dev-tools"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="25" height="25" alt="Laptop" align="absmiddle"/> Dev Tools</h2>
+## Dev Tools
 
 - [123apps](https://123apps.com) — huge library of free online tools (edit, convert, compress video/audio/PDF, etc).
 - [CustomGraph](https://customgraph.com) — generate and print custom graph paper / worksheets.
 - [roadmap.sh](https://roadmap.sh) — learning roadmaps and interview prep for devs.
+- [IT-Tools](https://it-tools.tech) — collection of handy online utilities for developers (token generators, hashing, converters, and more).
+- [CSVTool](https://csvtool.com) — browser-based tools for viewing, editing, and converting CSV files.
+- [VisuAlgo](https://visualgo.net) — visualizations of data structures and algorithms through animation.
 
-<h2 id="design"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Artist%20Palette.png" width="25" height="25" alt="Artist Palette" align="absmiddle"/> Design</h2>
+## Design
 
 - [Bioicons](https://bioicons.com) — free high-quality science icons for figures and presentations.
 - [React Bits](https://reactbits.dev) — hundreds of animated React UI components.
@@ -34,13 +42,22 @@ An organized collection of awesome repositories, tools, websites, and resources 
 - [Uiverse](https://uiverse.io) — community-made UI elements (buttons, cards, loaders) with copy-paste code.
 - [Chromateque](https://chromateque.netlify.app) — color palette / gradient inspiration tool.
 - [BrightIcons](https://brighticons.netlify.app) — icon set/browser for UI projects.
+- [Anime.js](https://animejs.com) — fast, versatile JavaScript library for animating SVG and other elements.
 
-<h2 id="learning"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="25" height="25" alt="Books" align="absmiddle"/> Learning</h2>
+## UI Libraries & Frameworks
+
+- [daisyUI](https://daisyui.com) — component library built on top of Tailwind CSS.
+- [Material UI (MUI)](https://mui.com) — React component library implementing Google's Material Design.
+- [shadcn/ui](https://ui.shadcn.com) — accessible, customizable React components you copy into your own codebase.
+- [W3Schools](https://w3schools.com) — reference and tutorials for HTML, CSS, JavaScript, and other web technologies.
+
+## Learning
 
 - [OpenLearn (The Open University)](https://open.edu) — thousands of free courses with certificates.
 - [Class Central](https://classcentral.com) — search engine / aggregator for online courses (MOOCs) from top universities.
+- [Skill-Lync Free Resources](https://resources.skill-lync.com) — free engineering roadmaps covering design, CAE, EV technology, and CFD.
 
-<h2 id="certificates"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="25" height="25" alt="Graduation Cap" align="absmiddle"/> Certificates</h2>
+## Certificates
 
 - [Cisco Networking Academy (NetAcad)](https://netacad.com) — free networking/IT/cybersecurity courses and certs.
 - [IBM SkillsBuild](https://skills.yourlearning.ibm.com/) — free IBM courses and digital credentials.
@@ -61,7 +78,7 @@ An organized collection of awesome repositories, tools, websites, and resources 
 - [Offensive Security](https://www.offsec.com/) — pentesting training and certs (OSCP, etc).
 - [Credly](https://www.credly.com/) — platform for managing and sharing digital badges/certificates.
 
-<h2 id="repos"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" width="25" height="25" alt="Toolbox" align="absmiddle"/> Repos</h2>
+## Repos
 
 - [public-apis/public-apis](https://github.com/public-apis) — massive collaborative list of free public APIs.
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — guides for building your own git, docker, redis, etc from scratch.
@@ -69,8 +86,9 @@ An organized collection of awesome repositories, tools, websites, and resources 
 - [Tarikul-Islam-Anik/Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis) — animated Fluent-style emoji set.
 - [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) — icons for showcasing skills/tech stacks in READMEs.
 
-<h2 id="misc--cool-sites"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="25" height="25" alt="Globe Showing Americas" align="absmiddle"/> Misc / Cool Sites</h2>
+## Misc / Cool Sites
 
 - [MotionBGs](https://motionbgs.com) — huge library (9,000+) of free live wallpapers for desktop/phone.
+- [Versus](https://versus.com/en) — compare specs and features of smartphones, cities, graphics cards, and more, side by side.
 
 ---
