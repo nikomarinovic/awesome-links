@@ -36,6 +36,8 @@ Tools that use AI to generate code, apps, designs, or visuals.
 - [Napkin](https://napkin.ai) — turns written text into diagrams, charts, and visuals automatically.
 - [Blueprint](https://blueprint.am) — AI assistant for hardware design and product development, by 3E8 Robotics.
 - [Dora](https://dora.run) — build and ship 3D/animated websites with AI, no code required.
+- [Textlab](https://textlab.javii.tools) — text animation mockup generator.
+- [Lummi](https://lummi.ai) — free AI-generated images and illustrations that don't look boring.
 
 <h2 id="developer-utilities">Developer Utilities</h2>
 
@@ -46,6 +48,13 @@ Practical everyday tools for writing, converting, and debugging.
 - [123apps](https://123apps.com) — huge library of free online tools (edit, convert, compress video/audio/PDF, etc).
 - [CustomGraph](https://customgraph.com) — generate and print custom graph paper / worksheets.
 - [VisuAlgo](https://visualgo.net) — visualizations of data structures and algorithms through animation.
+- [ASCII Art Archive](https://asciiart.eu/image-to-ascii) — turn almost any image into ASCII art, plus ASCII art gallery, animations, and tools.
+- [TinyWow](https://tinywow.com) — free AI-powered tools for PDF, image, and writing tasks (45+ PDF tools, 30+ image tools).
+- [JSON Crack](https://jsoncrack.com) — visualize JSON, YAML, and other data formats into interactive graphs.
+- [DevDocs](https://devdocs.io) — combined API documentation for many languages/frameworks, searchable and usable offline.
+- [Kaggle Learn](https://kaggle.com/learn) — free, interactive micro-courses on Python, SQL, data viz, pandas, and more.
+- [Pydle](https://pydle.net) — Wordle-style daily word game but for Python code/concepts.
+- [PyUiBuilder](https://pyuibuilder.com) — drag-and-drop GUI builder for Python, exports clean code for Tkinter, customTk, PySide, and more.
 
 <h2 id="ui-component-libraries--frameworks">UI Component Libraries & Frameworks</h2>
 
@@ -54,8 +63,10 @@ Component libraries for building interfaces.
 - [daisyUI](https://daisyui.com) — component library built on top of Tailwind CSS.
 - [Material UI (MUI)](https://mui.com) — React component library implementing Google's Material Design.
 - [shadcn/ui](https://ui.shadcn.com) — accessible, customizable React components you copy directly into your codebase.
-- [React Bits](https://reactbits.dev) — hundreds of animated React UI components.
+- [React Bits](https://reactbits.dev) — 140+ free creative React components that actually stand out.
 - [Uiverse](https://uiverse.io) — community-made UI elements (buttons, cards, loaders) with copy-paste code.
+- [Aceternity UI](https://ui.aceternity.com) — animated hero, card, and background sections built with Tailwind and Motion.
+- [CSS Loaders](https://css-loaders.com) — copy-paste CSS loader/spinner animations.
 
 <h2 id="design--inspiration">Design & Inspiration</h2>
 
@@ -68,6 +79,25 @@ Icons, animation, and visual design tools.
 - [SvgAPI](https://svgapi.com) - 200K+ free SVG icons.
 - [Chromateque](https://chromateque.netlify.app) — color palette / gradient inspiration tool.
 - [BrightIcons](https://brighticons.netlify.app) — icon set/browser for UI projects.
+- [60 FPS](https://60fps.design) — resource for learning smooth, high-performance UI/web animations.
+- [Colors Visualizer](https://colors-visualizer.vercel.app) — interactive tool for creating and previewing color palettes in real time.
+- [Brand Bird](https://brandbird.app) — create professional-looking visuals for branding and social media.
+- [Design Vault](https://designvault.io) — curated library of UX/UI design inspiration from real-world popular apps.
+- [Shortcuts.design](https://shortcuts.design) — keyboard shortcuts for design tools like Figma, Sketch, and Adobe XD.
+- [Unicorn Studio](https://unicorn.studio) — create jaw-dropping WebGL motion and interaction, no code.
+- [Refero](https://refero.design) — design research library/companion of real product UI.
+- [Realtime Colors](https://realtimecolors.com) — visualize and test your color palette on a real website mockup.
+- [Haikei](https://haikei.app) — generate SVG backgrounds, blobs, and waves.
+- [httpster.net](https://httpster.net) — gallery/showcase of well-designed websites for inspiration.
+- [Curated.design](https://curated.design) — filterable design inspiration gallery.
+- [Hoverstat](https://hoverstat.es) — showcase of unusual/weird interactive web design.
+- [Unsection](https://unsection.com) — curated single-section website design examples.
+- [Page Flows](https://pageflows.com) — real product user flow recordings, not just static pages.
+- [Cosmos](https://cosmos.so) — visual bookmarking/curation platform for design inspiration.
+- [Glassmorphism](https://glassmorphism.com) — the original glassmorphism CSS generator.
+- [Glassmorphism Generator (hype4.academy)](https://hype4.academy/tools/glassmorphism-generator) — drag three sliders (blur, refraction, depth) and copy the CSS, made by the designer who coined the "glassmorphism" term.
+- [unDraw](https://undraw.co) — open-source illustrations for any idea, customizable colors.
+- [Shots.so](https://shots.so) — drop screenshots into phone/browser mockup frames in seconds.
 
 <h2 id="learning--documentation">Learning & Documentation</h2>
 
@@ -118,5 +148,7 @@ Everything else worth a look.
 
 - [MotionBGs](https://motionbgs.com) — huge library (9,000+) of free live wallpapers for desktop/phone.
 - [Versus](https://versus.com/en) — compare specs and features of smartphones, cities, graphics cards, and more, side by side.
+- [Reelfolio](https://reelfolio.io) — turn messy screenshots into a showreel video that wins clients.
+- [Cofolios](https://cofolios.com) — browse real design intern/portfolio pages from people at top tech companies.
 
 ---
