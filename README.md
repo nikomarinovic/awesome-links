@@ -6,9 +6,12 @@
 <h1 align="center">
   Awesome Links
 </h1>
-
 <p align="center">
   Curated collection of tools, resources, and repositories for programming, design, cybersecurity, and AI.
+</p>
+<br>
+<p align="center">
+  <strong>Contributions are welcome!</strong><br><br>Found a great tool that's missing? Open a PR or an issue.
 </p>
 
 ---
