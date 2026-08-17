@@ -55,6 +55,7 @@ Practical everyday tools for writing, converting, and debugging.
 - [TinyWow](https://tinywow.com) — free AI-powered tools for PDF, image, and writing tasks (45+ PDF tools, 30+ image tools).
 - [JSON Crack](https://jsoncrack.com) — visualize JSON, YAML, and other data formats into interactive graphs.
 - [DevDocs](https://devdocs.io) — combined API documentation for many languages/frameworks, searchable and usable offline.
+- [Agent QA](https://github.com/vostride/agent-qa) — natural-language QA for web and mobile apps via CLI and MCP; current FSL-1.1-ALv2 releases are source-available rather than OSI open source, and configured providers may charge separately.
 - [Kaggle Learn](https://kaggle.com/learn) — free, interactive micro-courses on Python, SQL, data viz, pandas, and more.
 - [Pydle](https://pydle.net) — Wordle-style daily word game but for Python code/concepts.
 - [PyUiBuilder](https://pyuibuilder.com) — drag-and-drop GUI builder for Python, exports clean code for Tkinter, customTk, PySide, and more.
