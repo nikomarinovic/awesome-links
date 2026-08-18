@@ -1,46 +1,44 @@
 <p align="center">
-  <a href="https://github.com/nikomarinovic/awesome-links">
-    <img src="https://brighticons.netlify.app/icons?i=awesomelinks&size=256" alt="Awesome Links" />
-  </a>
+  <img
+    src="https://brighticons.netlify.app/icons?i=awesomelinks&size=256"
+    width="120"
+    alt="Awesome Links"
+  />
 </p>
-
 <h1 align="center">Awesome Links</h1>
-
 <p align="center">
-  A curated collection of tools, resources, repositories, and products for developers, designers, and builders.
+  <strong>TOOLS · RESOURCES · INSPIRATION</strong>
 </p>
-
 <p align="center">
-  <a href="https://github.com/nikomarinovic/awesome-links/stargazers">
-    <img src="https://img.shields.io/github/stars/nikomarinovic/awesome-links?style=flat-square" alt="Stars" />
-  </a>
-  <a href="https://github.com/nikomarinovic/awesome-links/network/members">
-    <img src="https://img.shields.io/github/forks/nikomarinovic/awesome-links?style=flat-square" alt="Forks" />
-  </a>
-  <a href="https://github.com/nikomarinovic/awesome-links/issues">
-    <img src="https://img.shields.io/github/issues/nikomarinovic/awesome-links?style=flat-square" alt="Issues" />
-  </a>
-  <a href="https://github.com/nikomarinovic/awesome-links/pulls">
-    <img src="https://img.shields.io/github/issues-pr/nikomarinovic/awesome-links?style=flat-square" alt="Pull Requests" />
-  </a>
+  A curated collection of useful tools, resources, repositories,<br>
+  products, and inspiration for developers, designers &amp; builders.
 </p>
-
 <br>
-
 <p align="center">
   <strong>Know something worth adding?</strong><br>
   Help grow the collection by sharing a useful tool, resource, or repository.
 </p>
-
 <p align="center">
-  <a href="https://github.com/nikomarinovic/awesome-links/issues/new">Open an Issue</a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://github.com/nikomarinovic/awesome-links/compare">Submit a Pull Request</a>
+  <a href="https://github.com/nikomarinovic/awesome-links/issues/new"><strong>Suggest a Link</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/nikomarinovic/awesome-links/compare"><strong>Contribute</strong></a>
 </p>
+<br>
 
 ---
 
-## Table of Contents
+<div id="table-of-contents">
+
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=334155&text=Table%20of%20Contents&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="Table of Contents"
+  />
+  <strong>EXPLORE THE COLLECTION</strong>
+</p>
+
+---
 
 - [AI](#ai)
 - [Developer](#developer)
@@ -64,13 +62,20 @@
 
 ---
 
-<h2 id="ai">AI</h2>
+<div id="ai">
 
-<p>
-  <img src="https://img.shields.io/badge/AI-Tools-7C3AED?style=flat-square" alt="AI Tools" />
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=7C3AED&text=AI&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="AI"
+  />
+  <strong>AI TOOLS & RESOURCES</strong>
 </p>
 
-Tools for generating code, apps, designs, visuals, and other AI-powered workflows.
+---
+
+<br>
 
 - [CodeRabbit](https://coderabbit.ai) — AI-powered code review tool.
 - [Blink](https://blink.new) — build full-stack applications with AI.
@@ -85,15 +90,24 @@ Tools for generating code, apps, designs, visuals, and other AI-powered workflow
 
 ---
 
-<h2 id="developer">Developer</h2>
-
-<p>
-  <img src="https://img.shields.io/badge/Developer-Tools-2563EB?style=flat-square" alt="Developer Tools" />
+<div id="developer">
+  
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=2563EB&text=Developer&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="Developer"
+  />
+  <strong>TOOLS, SERVICES & RESOURCES FOR BUILDERS</strong>
 </p>
 
-Resources for building, testing, prototyping, and working with software.
+---
+
+<br>
 
 <h3 id="developer-utilities">Developer Utilities</h3>
+
+> Practical tools for development, debugging, data handling, documentation, and everyday workflows.
 
 - [Agent QA](https://github.com/vostride/agent-qa) — natural-language web and mobile application testing through an npm CLI and MCP server.
 - [IT-Tools](https://it-tools.tech) — collection of useful online utilities for developers.
@@ -114,7 +128,7 @@ Resources for building, testing, prototyping, and working with software.
 
 <h3 id="apis--backend">APIs & Backend</h3>
 
-Services and APIs useful for building applications.
+> Services and APIs useful for building applications.
 
 - [Tally](https://tally.so) — simple form builder for collecting submissions.
 - [Resend](https://resend.com) — email API for developers.
@@ -123,31 +137,38 @@ Services and APIs useful for building applications.
 
 <h3 id="maps">Maps</h3>
 
-Mapping tools and resources for web applications.
+> Mapping tools and resources for web applications.
 
 - [MapCN](https://mapcn.vercel.app) — customizable map components for modern web applications.
 - [MapCN GitHub Repository](https://github.com/AnmolSaini16/mapcn) — source repository for MapCN.
 
 <h3 id="testing--prototyping">Testing & Prototyping</h3>
 
-Tools for testing interfaces, experimenting with hardware, and rapid prototyping.
+> Tools for testing interfaces, experimenting with hardware, and rapid prototyping.
 
 - [Wokwi](https://wokwi.com) — online electronics simulator for Arduino, ESP32, Raspberry Pi Pico, and more.
 - [Tinkercad](https://tinkercad.com) — browser-based 3D design and electronics platform.
 
 ---
 
-<h2 id="ui--design">UI & Design</h2>
-
-<p>
-  <img src="https://img.shields.io/badge/UI_%26_Design-EA580C?style=flat-square" alt="UI & Design" />
+<div id="ui--design">
+  
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=EA580C&text=UI%20and%20Design&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="UI & Design"
+  />
+  <strong>INTERFACES, INSPIRATION, COLORS & MOTION</strong>
 </p>
 
-Resources for designing interfaces, finding inspiration, creating visual assets, and building better websites.
+---
+
+<br>
 
 <h3 id="ui-components">UI Components</h3>
 
-Component libraries and ready-to-use interface resources.
+> Component libraries and ready-to-use interface resources.
 
 - [daisyUI](https://daisyui.com) — component library built on top of Tailwind CSS.
 - [Material UI](https://mui.com) — React component library based on Material Design.
@@ -163,7 +184,7 @@ Component libraries and ready-to-use interface resources.
 
 <h3 id="design-inspiration">Design Inspiration</h3>
 
-Collections of websites, products, portfolios, and interfaces worth studying.
+> Collections of websites, products, portfolios, and interfaces worth studying.
 
 - [Awwwards](https://awwwards.com) — showcase and awards platform for exceptional web design.
 - [Land-book](https://land-book.com) — curated collection of website design inspiration.
@@ -185,7 +206,7 @@ Collections of websites, products, portfolios, and interfaces worth studying.
 
 <h3 id="colors">Colors</h3>
 
-Color palettes, generators, and visual tools.
+> Color palettes, generators, and visual tools.
 
 - [Realtime Colors](https://realtimecolors.com) — visualize and test color palettes on realistic website layouts.
 - [Haikei](https://haikei.app) — generate SVG backgrounds, blobs, waves, and other visual assets.
@@ -196,7 +217,7 @@ Color palettes, generators, and visual tools.
 
 <h3 id="animation--motion">Animation & Motion</h3>
 
-Animation libraries, motion tools, and interactive visual resources.
+> Animation libraries, motion tools, and interactive visual resources.
 
 - [Anime.js](https://animejs.com) — lightweight JavaScript animation library.
 - [Jitter](https://jitter.video) — motion design and animation tool.
@@ -208,13 +229,13 @@ Animation libraries, motion tools, and interactive visual resources.
 
 <h3 id="fonts--typography">Fonts & Typography</h3>
 
-Tools for finding and pairing typefaces.
+> Tools for finding and pairing typefaces.
 
 - [Fontjoy](https://fontjoy.com) — generate font pairings using machine learning.
 
 <h3 id="design-tools">Design Tools</h3>
 
-Tools for creating, editing, and managing visual assets.
+> Tools for creating, editing, and managing visual assets.
 
 - [Bioicons](https://bioicons.com) — free science icons for figures and presentations.
 - [BrightIcons](https://brighticons.netlify.app) — icon browser and resource for UI projects.
@@ -225,13 +246,20 @@ Tools for creating, editing, and managing visual assets.
 
 ---
 
-<h2 id="learning--documentation">Learning & Documentation</h2>
+<div id="learning--documentation">
 
-<p>
-  <img src="https://img.shields.io/badge/Learning-%26_Documentation-059669?style=flat-square" alt="Learning & Documentation" />
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=059669&text=Learning%20and%20Documentation&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="Learning & Documentation"
+  />
+  <strong>COURSES, REFERENCES & RESOURCES FOR LEARNING</strong>
 </p>
 
-Courses, references, and resources for learning new technologies.
+---
+
+<br>
 
 - [W3Schools](https://w3schools.com) — tutorials and references for HTML, CSS, JavaScript, and other technologies.
 - [roadmap.sh](https://roadmap.sh) — developer learning roadmaps and interview preparation.
@@ -241,13 +269,20 @@ Courses, references, and resources for learning new technologies.
 
 ---
 
-<h2 id="certificates">Certificates</h2>
+<div id="certificates">
 
-<p>
-  <img src="https://img.shields.io/badge/Certificates-CA8A04?style=flat-square" alt="Certificates" />
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=CA8A04&text=Certificates&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="Certificates"
+  />
+  <strong>TRAINING, CREDENTIALS & PROFESSIONAL CERTIFICATIONS</strong>
 </p>
 
-Training platforms and professional certification resources.
+---
+
+<br>
 
 - [Cisco Networking Academy](https://netacad.com) — networking, IT, and cybersecurity courses.
 - [IBM SkillsBuild](https://skills.yourlearning.ibm.com/) — free IBM courses and digital credentials.
@@ -269,13 +304,20 @@ Training platforms and professional certification resources.
 
 ---
 
-<h2 id="repositories">Repositories</h2>
+<div id="repositories">
 
-<p>
-  <img src="https://img.shields.io/badge/Repositories-GitHub-181717?style=flat-square" alt="Repositories" />
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=475569&text=Repositories&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="Repositories"
+  />
+  <strong>GITHUB REPOSITORIES WORTH BOOKMARKING</strong>
 </p>
 
-GitHub repositories worth bookmarking.
+---
+
+<br>
 
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) — massive collaborative list of free public APIs.
 - [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — guides for building your own Git, Docker, Redis, and more from scratch.
@@ -285,13 +327,20 @@ GitHub repositories worth bookmarking.
 
 ---
 
-<h2 id="apps">Apps</h2>
+<div id="apps">
 
-<p>
-  <img src="https://img.shields.io/badge/Apps-DB2777?style=flat-square" alt="Apps" />
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=DB2777&text=Apps&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="Apps"
+  />
+  <strong>INTERESTING APPS & PRODUCTS WORTH EXPLORING</strong>
 </p>
 
-Interesting apps and products worth checking out.
+---
+
+<br>
 
 - **BeMonkey**
 - **Dun**
@@ -307,31 +356,53 @@ Interesting apps and products worth checking out.
 
 ---
 
-<h2 id="miscellaneous">Miscellaneous</h2>
+<div id="miscellaneous">
 
-<p>
-  <img src="https://img.shields.io/badge/Miscellaneous-64748B?style=flat-square" alt="Miscellaneous" />
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=0891B2&text=Miscellaneous&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="Miscellaneous"
+  />
+  <strong>OTHER USEFUL & INTERESTING RESOURCES</strong>
 </p>
 
-Other useful or interesting resources.
+---
+
+<br>
 
 - [MotionBGs](https://motionbgs.com) — large library of free live wallpapers.
 - [Versus](https://versus.com/en) — compare specifications and features across products and other categories.
 
 ---
 
-<h2 id="contributors">Contributors</h2>
+<div id="contributors">
 
-<p>
-  Awesome Links is built with contributions from the community.
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=4338CA&text=Contributors&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
+    width="100%"
+    alt="Contributors"
+  />
+  <strong>THE PEOPLE BEHIND THE COLLECTION</strong>
+</p>
+
+---
+
+<br>
+
+<p align="center">
+  Awesome Links is built with contributions from the community.<br>
   Every useful link, correction, and improvement helps make the collection better.
 </p>
 
-<p>
+<p align="center">
   <a href="https://github.com/nikomarinovic/awesome-links/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=nikomarinovic/awesome-links" alt="Contributors" />
   </a>
 </p>
+
+<br>
 
 <p align="center">
   <strong>Have something worth sharing?</strong>
@@ -348,3 +419,5 @@ Other useful or interesting resources.
 <p align="center">
   <sub>Curated and maintained by the Awesome Links community.</sub>
 </p>
+
+</div>
