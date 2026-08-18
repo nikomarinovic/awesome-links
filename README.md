@@ -46,6 +46,7 @@ Tools that use AI to generate code, apps, designs, or visuals.
 
 Practical everyday tools for writing, converting, and debugging.
 
+- [Agent QA](https://github.com/vostride/agent-qa) — natural-language web and mobile application testing through an npm CLI and MCP server.
 - [IT-Tools](https://it-tools.tech) — collection of handy online utilities for developers (token generators, hashing, converters, and more).
 - [CSVTool](https://csvtool.com) — browser-based tools for viewing, editing, and converting CSV files.
 - [123apps](https://123apps.com) — huge library of free online tools (edit, convert, compress video/audio/PDF, etc).
