@@ -35,6 +35,7 @@ Tools that use AI to generate code, apps, designs, or visuals.
 
 - [CodeRabbit](https://coderabbit.ai) — AI-powered code review tool.
 - [Blink](https://blink.new) — build full-stack custom apps with AI, prompt-to-app.
+- [IdeaHunter](https://ideahunter.today) — discover demand-backed app and micro-SaaS ideas using market signals, buyer pain, MVP scope, and monetization paths.
 - [Pomelli](https://labs.google.com/pomelli) — Google Labs tool that generates ideas, palettes, and design assets from a prompt.
 - [Napkin](https://napkin.ai) — turns written text into diagrams, charts, and visuals automatically.
 - [Blueprint](https://blueprint.am) — AI assistant for hardware design and product development, by 3E8 Robotics.
