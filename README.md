@@ -87,6 +87,10 @@
 - [Textlab](https://textlab.javii.tools) — text animation mockup generator.
 - [Lummi](https://lummi.ai) — AI-generated images and illustrations.
 - [LogoAI](https://logoai.com) — AI-powered logo and brand identity generator.
+- [Genspark](https://genspark.ai) — all-in-one AI workspace that combines multiple models and tools to research, create, and automate tasks.
+- [PolishMe](https://polishme.ai) — AI tool for polishing and refining written text.
+- [v0](https://v0.app) — Vercel's AI tool for generating UI components and web apps from prompts.
+- [LLM Visualization](https://bbycroft.net/llm) — interactive 3D visualization of a GPT-style LLM running inference.
 
 ---
 
@@ -125,6 +129,9 @@
 - [Responsively](https://responsively.app) — responsive web development and testing tool.
 - [Cubic Bezier](https://cubic-bezier.com) — interactive cubic-bezier timing-function editor.
 - [CSS-Tricks Almanac](https://css-tricks.com/almanac/) — reference for CSS properties and web development.
+- [Codecrafters](https://codecrafters.io) — build your own Redis, Docker, Git, and more through guided real-world coding challenges.
+- [Cobalt](https://cobalt.tools) — free, open-source tool for downloading video and audio from social platforms and websites.
+- [Repolyze](https://repolyze.mxcorp.in) — repository analysis tool.
 
 <h3 id="apis--backend">APIs & Backend</h3>
 
@@ -148,6 +155,7 @@
 
 - [Wokwi](https://wokwi.com) — online electronics simulator for Arduino, ESP32, Raspberry Pi Pico, and more.
 - [Tinkercad](https://tinkercad.com) — browser-based 3D design and electronics platform.
+- [Repple](https://repple.sh) — spaced-repetition flashcards with Markdown/LaTeX support, PDF reading with AI-generated cards, and a REST API/MCP server.
 
 ---
 
@@ -181,6 +189,7 @@
 - [HyperUI](https://hyperui.dev) — free Tailwind CSS components.
 - [21st.dev](https://21st.dev) — community-driven React and Tailwind components.
 - [OriginKit](https://originkit.dev) — UI resources and components for modern web interfaces.
+- [Material Design 3](https://m3.material.io) — Google's open-source design system, guidelines, and components.
 
 <h3 id="design-inspiration">Design Inspiration</h3>
 
@@ -203,6 +212,8 @@
 - [Reelfolio](https://reelfolio.io) — turn screenshots into polished showreel videos.
 - [Cofolios](https://cofolios.com) — real design intern and portfolio pages from top tech companies.
 - [Islands](https://islands.study) — curated visual resource for discovering websites and design.
+- [Pafolios](https://pafolios.com) — curated gallery of portfolio websites for inspiration.
+- [EZ Screenshots](https://ezscreenshots.com/app) — create polished app and website screenshots and device mockups.
 
 <h3 id="colors">Colors</h3>
 
@@ -243,6 +254,7 @@
 - [Brand Bird](https://brandbird.app) — create visuals for branding and social media.
 - [Unicorn Studio](https://unicorn.studio) — create WebGL motion and interactions without code.
 - [unDraw](https://undraw.co) — open-source illustrations for any idea, customizable colors.
+- [Icon Kitchen](https://icon.kitchen) — generate app icons for iOS, Android, and web.
 
 ---
 
@@ -301,6 +313,7 @@
 - [INE](https://ine.com) — IT and cybersecurity training.
 - [Offensive Security](https://offsec.com) — penetration testing training and certifications.
 - [Credly](https://credly.com) — platform for managing and sharing digital credentials.
+- [pwn.college](https://pwn.college/dojos) — free cybersecurity dojos covering binary exploitation and offensive security.
 
 ---
 
@@ -324,6 +337,7 @@
 - [tabler/tabler-icons](https://github.com/tabler/tabler-icons) — free SVG icon set.
 - [Tarikul-Islam-Anik/Animated-Fluent-Emojis](https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis) — animated Fluent-style emoji set.
 - [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) — icons for showcasing skills and technology stacks in READMEs.
+- [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — CLI agent framework for building and running AI-driven command-line tools.
 
 ---
 
@@ -351,6 +365,12 @@
 - **Bingers**
 - **Tiny Player**
 - **Tone**
+- **NetLens**
+- **Did I Do?**
+- **Crouton**
+- **Clocks**
+- **Qewie**
+- **Kino**
 
 > App URLs can be added when their official pages are available.
 
@@ -373,6 +393,11 @@
 
 - [MotionBGs](https://motionbgs.com) — large library of free live wallpapers.
 - [Versus](https://versus.com/en) — compare specifications and features across products and other categories.
+- [Wikitrivia](https://wikitrivia.tomjwatson.com) — drag-and-drop trivia game where you place historical events on a timeline, powered by Wikidata.
+- [Our World in Data](https://ourworldindata.org) — research and data visualizations on the world's biggest problems.
+- [iFixit](https://ifixit.com) — free repair guides and teardown documentation for electronics and devices.
+- [Periplus](https://periplus.app) — turns any topic, question, or PDF into a structured course with explanations, quizzes, and flashcards.
+- [Haptyk](https://haptyk.com) — velocity-sensitive mechanical keyboard sounds for MacBook, a Klack alternative for Mac.
 
 ---
 
