@@ -91,6 +91,7 @@
 - [PolishMe](https://polishme.ai) — AI tool for polishing and refining written text.
 - [v0](https://v0.app) — Vercel's AI tool for generating UI components and web apps from prompts.
 - [LLM Visualization](https://bbycroft.net/llm) — interactive 3D visualization of a GPT-style LLM running inference.
+- [NextReset](https://nextreset.ai/) — independent, source-linked Codex reset history and official AI service incident reference with a browser-local timer.
 
 ---
 
