@@ -16,7 +16,7 @@
 <p align="center">
   <strong>Know something worth adding?</strong><br>
   Help grow the collection by sharing a useful tool, resource, or repository.<br>
-  <sub>Pull requests can add up to 10 links each.</sub>
+  <sub>Pull requests can add up to 10 working links. Explicit content, gambling, graphic violence, illegal drug sales, and hate/extremist content are not allowed. Link descriptions must be plain text. The automated check may require a maintainer review if it cannot read a page.</sub>
 </p>
 <p align="center">
   <a href="https://github.com/nikomarinovic/awesome-links/issues/new?template=suggest-link.yml"><strong>Suggest a Link</strong></a>
