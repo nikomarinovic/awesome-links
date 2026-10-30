@@ -8,3 +8,5 @@
    - The automated check screens the submitted text and readable page text. Pages it cannot inspect need a maintainer's manual review and will not be auto-merged.
 
    Pull requests that pass all checks are merged automatically. Content screening is best-effort, so maintainers may still review any submission.
+
+   Maintainers can label merged PRs `release:major` or `release:minor` to control the next scheduled release version. Releases default to `release:patch`.
