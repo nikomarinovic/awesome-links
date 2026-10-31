@@ -384,23 +384,28 @@
 
 <br>
 
-- **BeMonkey**
-- **Dun**
-- **RAD Weather**
-- **Focus Pal**
-- **SepiaPod**
-- **Easy 10K**
-- **Bingers**
-- **Tiny Player**
-- **Tone**
-- **NetLens**
-- **Did I Do?**
-- **Crouton**
-- **Clocks**
-- **Qewie**
-- **Kino**
-
-> App URLs can be added when their official pages are available.
+- **BeMonkey** — a minimalist typing app designed to help improve your typing speed.
+- **Focus Pal** — helps you reclaim focus, reduce screen time, and build better habits.
+- **SepiaPod** — a retro-inspired music player.
+- **Easy 10K** — helps you reach 10,000 steps a day with a clean design and Home Screen and Lock Screen widgets.
+- **Tiny Player** — play local music files, including MP3s, on your iPhone without syncing through iTunes.
+- **Did I Do?** — a simple yes-or-no widget to help you remember whether you did something.
+- **Crouton** — a recipe manager.
+- **Clocks** — adds a fun clock experience to StandBy mode.
+- **Qewie** — a QR code generator.
+- **Pushr** — automatically counts your push-ups using facial tracking.
+- **Pop Out Timer** — keeps a floating timer visible with picture-in-picture.
+- **Mononote** — puts an important note on your Lock Screen and Dynamic Island.
+- **Neucast** — a modern podcast app with a text-based episode player.
+- **Lazy Weather** — tells you whether it is warmer or colder than yesterday, without extra data.
+- **Center** — a quiet, simple meditation timer.
+- **Fliqlo** — a minimalist screensaver inspired by a flip clock.
+- **(Not Boring) Weather** — a playful, interactive weather app with detailed forecasts and widgets.
+- **(Not Boring) Calculator** — a playful calculator that shows your full equation as you type.
+- **(Not Boring) Timer** — a visual everyday timer with a stopwatch and customizable widgets.
+- **(Not Boring) Camera** — a playful camera with film-inspired color styles and manual controls.
+- **(Not Boring) Habits** — a guilt-free habit tracker focused on repetition, not streaks.
+- **(Not Boring) Vibes** — personalized spatial soundscapes for focus, relaxation, and sleep.
 
 ---
 
