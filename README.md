@@ -366,6 +366,7 @@
 - [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) — AI video editor with chat-based editing.
 - [coollabsio/shoutrrr](https://github.com/coollabsio/shoutrrr) — self-hosted social media scheduler.
 - [Hallmark](https://github.com/Nutlope/hallmark) — Open-source AI-powered tool for creating and editing presentations.
+- [Kilobat CLI](https://github.com/seifip/kilobat-cli) — A macOS CLI for network diagnostics, DNS troubleshooting, and connectivity analysis.
 
 ---
 
