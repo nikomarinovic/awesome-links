@@ -15,6 +15,7 @@ import urllib.request
 REPO = os.environ["REPO"]
 MAX = int(os.environ.get("MAX", "20"))
 SIZE = 64
+PINNED = ["seifip", "happynocode"]
 
 START = "<!-- CONTRIBUTORS:START -->"
 END = "<!-- CONTRIBUTORS:END -->"
@@ -55,8 +56,9 @@ def round_svg(uri):
 
 
 def main():
-    logins = contributors()
-    shown = logins[:MAX]
+    ranked = contributors()
+    logins = list(dict.fromkeys(ranked + PINNED))
+    shown = list(dict.fromkeys(ranked[:MAX] + PINNED))
     rest = len(logins) - len(shown)
 
     os.makedirs(AVATAR_DIR, exist_ok=True)
