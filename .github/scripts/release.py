@@ -1,3 +1,4 @@
+import base64
 import json
 import os
 import re
@@ -11,6 +12,10 @@ from urllib.request import Request, urlopen
 API_ROOT = "https://api.github.com"
 RELEASE_INTERVAL = timedelta(days=5)
 VERSION_PATTERN = re.compile(r"^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
+README_LINK_PATTERN = re.compile(
+    r"^\s*[-*]\s+\[([^\]]+)\]\((https?://[^)\s]+)\)"
+    r"(?:\s+[-—]\s+(.+))?\s*$"
+)
 
 
 def api_request(path, data=None):
@@ -80,35 +85,104 @@ def release_type_for(pull_requests):
     return "Patch"
 
 
-def clean_generated_notes(generated_notes):
-    lines = generated_notes.strip().splitlines()
-    if lines and lines[0].strip().lower() == "## what's changed":
-        lines = lines[1:]
-    return "\n".join(lines).strip()
+def release_is_due(published_at, now):
+    return (now.date() - published_at.date()).days >= RELEASE_INTERVAL.days
+
+
+def added_readme_links(previous_readme, current_readme):
+    previous_urls = {
+        match.group(2)
+        for line in previous_readme.splitlines()
+        if (match := README_LINK_PATTERN.match(line))
+    }
+    additions = []
+    for line in current_readme.splitlines():
+        match = README_LINK_PATTERN.match(line)
+        if match and match.group(2) not in previous_urls:
+            name, url, description = match.groups()
+            entry = f"- [{name}]({url})"
+            if description:
+                entry += f" — {description}"
+            additions.append((url, entry))
+            previous_urls.add(url)
+    return [entry for _, entry in additions]
+
+
+def readme_at_ref(repository, ref):
+    response = api_request(
+        f"/repos/{quote(repository, safe='/')}/contents/README.md"
+        f"?ref={quote(ref, safe='')}"
+    )
+    return base64.b64decode(response["content"]).decode("utf-8")
+
+
+def release_section(title, entries, empty_message):
+    content = "\n".join(entries) if entries else f"- {empty_message}"
+    return f"## {title}\n{content}"
+
+
+def body_excerpt(body, limit=240):
+    lines = []
+    for line in re.sub(r"<!--.*?-->", "", body or "", flags=re.DOTALL).splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            if lines:
+                break
+            continue
+        line = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line)
+        line = re.sub(r"`([^`]+)`", r"\1", line)
+        lines.append(line)
+    excerpt = re.sub(r"\s+", " ", " ".join(lines)).strip()
+    if len(excerpt) > limit:
+        excerpt = excerpt[:limit].rsplit(" ", 1)[0].rstrip(".,;:") + "…"
+    return excerpt
 
 
 def build_release_body(repository, owner, display_name, tag, previous_tag,
-                       release_type, release_date, pull_requests, generated_notes):
+                       release_type, release_date, pull_requests, issues,
+                       commits, new_links):
     repo_name = repository["name"]
     repo_url = repository["html_url"]
     owner_url = f"https://github.com/{owner}"
-    if pull_requests:
-        summary = (
-            f"This release includes {len(pull_requests)} merged pull request"
-            f"{'s' if len(pull_requests) != 1 else ''} since {previous_tag}."
+    summary = (
+        f"This release includes {len(new_links)} new README "
+        f"{'link' if len(new_links) == 1 else 'links'}, "
+        f"{len(pull_requests)} merged "
+        f"{'pull request' if len(pull_requests) == 1 else 'pull requests'}, "
+        f"{len(issues)} closed "
+        f"{'issue' if len(issues) == 1 else 'issues'}, and "
+        f"{len(commits)} standalone "
+        f"{'commit' if len(commits) == 1 else 'commits'} since {previous_tag}."
+    )
+    pr_entries = [
+        f"- [#{pr['number']}]({pr['html_url']}) — {pr['title']}"
+        + (f": {body_excerpt(pr.get('body'))}" if body_excerpt(pr.get("body")) else "")
+        for pr in pull_requests
+    ]
+    issue_entries = [
+        f"- [#{issue['number']}]({issue['html_url']}) — {issue['title']}"
+        + (
+            f": {body_excerpt(issue.get('body'))}"
+            if body_excerpt(issue.get("body"))
+            else ""
         )
-        highlights = "\n".join(
-            f"- {pull_request['title']} "
-            f"[#{pull_request['number']}]({pull_request['html_url']})"
-            for pull_request in pull_requests[:10]
-        )
-        if len(pull_requests) > 10:
-            highlights += f"\n- And {len(pull_requests) - 10} more merged pull requests."
-    else:
-        summary = f"This release includes repository updates since {previous_tag}."
-        highlights = "- Repository updates since the previous release."
-
+        for issue in issues
+    ]
+    commit_entries = [
+        f"- [{commit['sha'][:7]}]({commit['html_url']}) — "
+        f"{commit['commit']['message'].splitlines()[0]}"
+        for commit in commits
+    ]
     changelog_url = f"{repo_url}/compare/{previous_tag}...{tag}"
+    sections = [
+        release_section("New links added to README", new_links, "No new links."),
+        release_section(
+            "Merged pull requests", pr_entries, "No merged pull requests."
+        ),
+        release_section("Closed issues", issue_entries, "No issues closed."),
+        release_section("Standalone commits", commit_entries, "No standalone commits."),
+    ]
+    change_details = "\n\n---\n\n".join(sections)
     return f"""# {repo_name} {tag}
 **Release Type:** `{release_type}`
 **Author:** [@{owner}]({owner_url})
@@ -122,26 +196,14 @@ def build_release_body(repository, owner, display_name, tag, previous_tag,
 
 ---
 
-## Highlights
-{highlights}
-
----
-
-## What's Next
-- Continued community contributions via issues and pull requests
-- Expanded the collection as new resources are reviewed
-
----
-
-## What's Changed
-{clean_generated_notes(generated_notes)}
+{change_details}
 
 **Full Changelog**: {changelog_url}
 
 ---
 
 <p align="center">
-  © {release_date[:4]} {display_name}. All rights reserved.
+  © {release_date[-4:]} {display_name}. All rights reserved.
 </p>
 """
 
@@ -157,7 +219,7 @@ def main():
         latest_release["published_at"].replace("Z", "+00:00")
     )
     now = datetime.now(timezone.utc)
-    if now - published_at < RELEASE_INTERVAL:
+    if not release_is_due(published_at, now):
         print("The latest release is less than five days old; nothing to do.")
         return
 
@@ -194,16 +256,41 @@ def main():
         ) >= published_at and pull_request.get("merge_commit_sha") in included_commits:
             merged_after_release.append(pull_request)
 
+    closed_issues = [
+        issue
+        for issue in api_pages(
+            f"/repos/{encoded_repo}/issues?state=closed"
+            f"&since={quote(published_at.isoformat(), safe='')}"
+            "&sort=updated&direction=desc&per_page=100"
+        )
+        if "pull_request" not in issue
+        and issue.get("closed_at")
+        and datetime.fromisoformat(
+            issue["closed_at"].replace("Z", "+00:00")
+        ) >= published_at
+    ]
+
+    previous_readme = readme_at_ref(repository_name, previous_tag)
+    current_readme = readme_at_ref(repository_name, head_sha)
+    new_links = added_readme_links(previous_readme, current_readme)
+
+    pull_request_commit_shas = set()
+    for pull_request in merged_after_release:
+        pull_request_commit_shas.update(
+            commit["sha"]
+            for commit in api_pages(
+                f"/repos/{encoded_repo}/pulls/{pull_request['number']}/commits"
+                "?per_page=100"
+            )
+        )
+    standalone_commits = [
+        commit
+        for commit in comparison.get("commits", [])
+        if commit["sha"] not in pull_request_commit_shas
+    ]
+
     release_type = release_type_for(merged_after_release)
     tag = bump_version(previous_tag, release_type)
-    notes = api_request(
-        f"/repos/{encoded_repo}/releases/generate-notes",
-        {
-            "tag_name": tag,
-            "target_commitish": head_sha,
-            "previous_tag_name": previous_tag,
-        },
-    )["body"]
     owner = repository["owner"]["login"]
     profile = api_request(f"/users/{quote(owner, safe='')}")
     body = build_release_body(
@@ -213,9 +300,11 @@ def main():
         tag,
         previous_tag,
         release_type,
-        now.date().isoformat(),
+        now.strftime("%d-%m-%Y"),
         merged_after_release,
-        notes,
+        closed_issues,
+        standalone_commits,
+        new_links,
     )
     api_request(
         f"/repos/{encoded_repo}/releases",
