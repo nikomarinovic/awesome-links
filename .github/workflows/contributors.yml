@@ -3,6 +3,8 @@ name: Update contributors
 on:
   push:
     branches: [main]
+  pull_request_target:
+    types: [closed]
   schedule:
     - cron: "0 6 * * 1"   # every Monday at 06:00 UTC
   workflow_dispatch:
@@ -12,6 +14,7 @@ permissions:
 
 jobs:
   update:
+    if: github.event_name != 'pull_request_target' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,6 +26,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           MAX: "20"
+          CONTRIBUTOR_LOGIN: ${{ github.event.pull_request.user.login }}
         run: python3 .github/scripts/contributors.py
 
       - name: Commit changes

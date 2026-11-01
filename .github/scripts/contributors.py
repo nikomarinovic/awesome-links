@@ -57,8 +57,10 @@ def round_svg(uri):
 
 def main():
     ranked = contributors()
-    logins = list(dict.fromkeys(ranked + PINNED))
-    shown = list(dict.fromkeys(ranked[:MAX] + PINNED))
+    pr_contributor = os.environ.get("CONTRIBUTOR_LOGIN", "").strip()
+    extra = [pr_contributor] if pr_contributor else []
+    logins = list(dict.fromkeys(ranked + PINNED + extra))
+    shown = list(dict.fromkeys(ranked[:MAX] + PINNED + extra))
     rest = len(logins) - len(shown)
 
     os.makedirs(AVATAR_DIR, exist_ok=True)
