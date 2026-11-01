@@ -265,8 +265,10 @@
 
 > Tools for creating, editing, and managing visual assets.
 
+- [Balsamiq](https://balsamiq.com) — wireframing tool for designing mobile apps and websites.
 - [Bioicons](https://bioicons.com) — free science icons for figures and presentations.
 - [BrightIcons](https://brighticons.netlify.app) — icon browser and resource for UI projects.
+- [3dicons](https://3dicons.co) — beautifully crafted, open-source 3D icons for design projects.
 - [SvgAPI](https://svgapi.com) — large collection of free SVG icons.
 - [Brand Bird](https://brandbird.app) — create visuals for branding and social media.
 - [Unicorn Studio](https://unicorn.studio) — create WebGL motion and interactions without code.
