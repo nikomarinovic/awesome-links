@@ -310,7 +310,7 @@ def main():
         f"/repos/{encoded_repo}/releases",
         {
             "tag_name": tag,
-            "name": f"{repository['name']} {tag}",
+            "name": tag,
             "body": body,
             "target_commitish": head_sha,
             "draft": False,
