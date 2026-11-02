@@ -401,6 +401,7 @@
 - [coollabsio/shoutrrr](https://github.com/coollabsio/shoutrrr) — self-hosted social media scheduler.
 - [Hallmark](https://github.com/Nutlope/hallmark) — Open-source AI-powered tool for creating and editing presentations.
 - [Kilobat CLI](https://github.com/seifip/kilobat-cli) — A macOS CLI for network diagnostics, DNS troubleshooting, and connectivity analysis.
+- [Badges4\-README\.md\-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile) — A comprehensive collection of ready\-to\-use badges for GitHub profile READMEs\.
 
 ---
 
