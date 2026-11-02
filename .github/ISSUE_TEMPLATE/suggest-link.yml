@@ -9,20 +9,20 @@ body:
         Know something worth adding to Awesome Links?
         Share a useful resource with the community.
 
-  - type: input
+  - type: textarea
     id: resource_name
     attributes:
       label: Resource Name
-      description: What is the name of the tool, resource, or project?
+      description: What is the name of the tool, resource, or project? For multiple links, put one name on each line in the same order as the URLs.
       placeholder: e.g. Visual Studio Code
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: resource_url
     attributes:
       label: Resource URL
-      description: Provide a direct link to the resource.
+      description: Provide a direct HTTPS link. For multiple links, put one URL on each line in the same order as the names.
       placeholder: https://example.com
     validations:
       required: true
@@ -31,7 +31,7 @@ body:
     id: category
     attributes:
       label: Category
-      description: Which category best fits this resource?
+      description: Which category best fits this resource? Leave blank if you are unsure; the bot will choose the closest match.
       options:
         - "AI"
         - "Developer"
@@ -52,13 +52,13 @@ body:
         - "Apps"
         - "Miscellaneous"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: description
     attributes:
       label: Why should it be included?
-      description: Explain briefly what makes this resource useful.
+      description: Briefly explain what makes this resource useful. Leave blank and the bot will try to write a short description from the linked page.
       placeholder: What does it do, and why is it worth adding?
     validations:
-      required: true
+      required: false

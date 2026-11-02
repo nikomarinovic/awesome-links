@@ -1,0 +1,36 @@
+name: Process link suggestion issues
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Open issue number to process
+        required: true
+        type: number
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: process-link-issues
+  cancel-in-progress: false
+
+jobs:
+  process:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CONTRIBUTORS_TOKEN }}
+
+      - name: Process issue
+        env:
+          GH_TOKEN: ${{ secrets.CONTRIBUTORS_TOKEN }}
+          REPO: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || inputs.issue_number }}
+          OWNER_LOGIN: ${{ github.repository_owner }}
+        run: python3 .github/scripts/issue_bot.py
