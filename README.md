@@ -36,14 +36,14 @@
 
 ---
 
-<img src=".github/icons/brain-circuit.svg" width="22" height="22" alt="AI category icon" align="middle" /> **AI**<br>
+<img src=".github/icons/brain-circuit.svg" width="22" height="22" alt="AI category icon" align="absmiddle" /> **AI**<br>
 <sub>AI tools, assistants, and creative workflows.</sub>
 
 - [AI](#ai)
 
 ---
 
-<img src=".github/icons/code-xml.svg" width="22" height="22" alt="Development category icon" align="middle" /> **Development**<br>
+<img src=".github/icons/code-xml.svg" width="22" height="22" alt="Development category icon" align="absmiddle" /> **Development**<br>
 <sub>Tools and services for building, testing, and shipping software.</sub>
 
 - [Developer](#developer)
@@ -54,7 +54,7 @@
 
 ---
 
-<img src=".github/icons/palette.svg" width="22" height="22" alt="Design category icon" align="middle" /> **Design**<br>
+<img src=".github/icons/palette.svg" width="22" height="22" alt="Design category icon" align="absmiddle" /> **Design**<br>
 <sub>Interfaces, visual inspiration, and creative tools.</sub>
 
 - [UI & Design](#ui--design)
@@ -67,7 +67,7 @@
 
 ---
 
-<img src=".github/icons/graduation-cap.svg" width="22" height="22" alt="Learning category icon" align="middle" /> **Learning**<br>
+<img src=".github/icons/graduation-cap.svg" width="22" height="22" alt="Learning category icon" align="absmiddle" /> **Learning**<br>
 <sub>Courses, documentation, and professional credentials.</sub>
 
 - [Learning & Documentation](#learning--documentation)
@@ -75,7 +75,7 @@
 
 ---
 
-<img src=".github/icons/layers.svg" width="22" height="22" alt="Resources category icon" align="middle" /> **Resources**<br>
+<img src=".github/icons/layers.svg" width="22" height="22" alt="Resources category icon" align="absmiddle" /> **Resources**<br>
 <sub>Useful repositories, apps, and other finds.</sub>
 
 - [Repositories](#repositories)
@@ -84,7 +84,7 @@
 
 ---
 
-<img src=".github/icons/users.svg" width="22" height="22" alt="Community category icon" align="middle" /> **Community**<br>
+<img src=".github/icons/users.svg" width="22" height="22" alt="Community category icon" align="absmiddle" /> **Community**<br>
 <sub>People who help grow this collection.</sub>
 
 - [Contributors](#contributors)
