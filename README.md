@@ -518,6 +518,8 @@
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="https://github.com/nikomarinovic/awesome-links/compare">Submit a Pull Request</a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="LICENSE">MIT License</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="https://github.com/nikomarinovic/awesome-links">View Repository</a>
 </p>
 
