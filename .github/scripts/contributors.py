@@ -56,9 +56,13 @@ def round_svg(uri):
 
 
 def main():
-    ranked = contributors()
+    ranked = [login for login in contributors() if login.lower() != "niko"]
     pr_contributor = os.environ.get("CONTRIBUTOR_LOGIN", "").strip()
-    extra = [pr_contributor] if pr_contributor else []
+    extra = (
+        [pr_contributor]
+        if pr_contributor and pr_contributor.lower() != "niko"
+        else []
+    )
     logins = list(dict.fromkeys(ranked + PINNED + extra))
     shown = list(dict.fromkeys(ranked[:MAX] + PINNED + extra))
     rest = len(logins) - len(shown)
