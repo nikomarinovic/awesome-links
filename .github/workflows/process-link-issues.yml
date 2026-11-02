@@ -29,7 +29,7 @@ jobs:
 
       - name: Process issue
         env:
-          GH_TOKEN: ${{ secrets.CONTRIBUTORS_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           ISSUE_NUMBER: ${{ github.event.issue.number || inputs.issue_number }}
           OWNER_LOGIN: ${{ github.repository_owner }}
