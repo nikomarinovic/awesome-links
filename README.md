@@ -30,22 +30,33 @@
 <div id="table-of-contents">
 
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=334155&text=Table%20of%20Contents&fontSize=42&fontColor=FFFFFF&fontAlignY=55"
-    width="100%"
-    alt="Table of Contents"
-  />
-  <strong>EXPLORE THE COLLECTION</strong>
+  <strong>EXPLORE BY CATEGORY</strong><br>
+  <sub>Browse curated tools, resources, and inspiration by topic.</sub>
 </p>
 
 ---
 
+<img src=".github/icons/brain-circuit.svg" width="22" height="22" alt="AI category icon" align="middle" /> **AI**<br>
+<sub>AI tools, assistants, and creative workflows.</sub>
+
 - [AI](#ai)
+
+---
+
+<img src=".github/icons/code-xml.svg" width="22" height="22" alt="Development category icon" align="middle" /> **Development**<br>
+<sub>Tools and services for building, testing, and shipping software.</sub>
+
 - [Developer](#developer)
   - [Developer Utilities](#developer-utilities)
   - [APIs & Backend](#apis--backend)
   - [Maps](#maps)
   - [Testing & Prototyping](#testing--prototyping)
+
+---
+
+<img src=".github/icons/palette.svg" width="22" height="22" alt="Design category icon" align="middle" /> **Design**<br>
+<sub>Interfaces, visual inspiration, and creative tools.</sub>
+
 - [UI & Design](#ui--design)
   - [UI Components](#ui-components)
   - [Design Inspiration](#design-inspiration)
@@ -53,11 +64,29 @@
   - [Animation & Motion](#animation--motion)
   - [Fonts & Typography](#fonts--typography)
   - [Design Tools](#design-tools)
+
+---
+
+<img src=".github/icons/graduation-cap.svg" width="22" height="22" alt="Learning category icon" align="middle" /> **Learning**<br>
+<sub>Courses, documentation, and professional credentials.</sub>
+
 - [Learning & Documentation](#learning--documentation)
 - [Certificates](#certificates)
+
+---
+
+<img src=".github/icons/layers.svg" width="22" height="22" alt="Resources category icon" align="middle" /> **Resources**<br>
+<sub>Useful repositories, apps, and other finds.</sub>
+
 - [Repositories](#repositories)
 - [Apps](#apps)
 - [Miscellaneous](#miscellaneous)
+
+---
+
+<img src=".github/icons/users.svg" width="22" height="22" alt="Community category icon" align="middle" /> **Community**<br>
+<sub>People who help grow this collection.</sub>
+
 - [Contributors](#contributors)
 
 ---
