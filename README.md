@@ -230,6 +230,7 @@
 - [Adfolio](https://adfolio.design) — library of B2B ads for inspiration.
 - [Design Spells](https://designspells.com) — micro-interactions and small design details.
 - [Toolfolio](https://toolfolio.io) — curated tools and resources for designers.
+- [Spotted in Prod](https://spottedinprod.com/) — A curated collection of mobile apps currently live in production, showcasing real-world app designs and experiences.
 
 <h3 id="colors">Colors</h3>
 
