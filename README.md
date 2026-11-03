@@ -230,6 +230,7 @@
 - [React Native Components](https://reactnativecomponents.com) — ready-to-use React Native UI components.
 - [Liquid Glass](https://glass.samasante.com) — React library for Apple's Liquid Glass effect.
 - [Iconly](https://iconly.pro) — collection of flat, animated, and 3D icons.
+- [All SVG Icons](https://allsvgicons.com) — Search 459k+ free SVG icons.
 
 <h3 id="design-inspiration">Design Inspiration</h3>
 
