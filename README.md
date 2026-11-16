@@ -250,6 +250,7 @@
 - [Page Flows](https://pageflows.com) — real product user-flow recordings.
 - [Cosmos](https://cosmos.so) — visual bookmarking and curation platform.
 - [Shots.so](https://shots.so) — create device and browser mockups from screenshots.
+- [AppScreen](https://appscreen.pro) — Free App Store and Google Play screenshot maker that runs in the browser.
 - [Reelfolio](https://reelfolio.io) — turn screenshots into polished showreel videos.
 - [Cofolios](https://cofolios.com) — real design intern and portfolio pages from top tech companies.
 - [Islands](https://islands.study) — curated visual resource for discovering websites and design.
