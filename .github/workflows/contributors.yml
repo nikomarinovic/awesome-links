@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-contributors-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   update:
     if: github.event_name != 'pull_request_target' || github.event.pull_request.merged == true
@@ -38,5 +42,6 @@ jobs:
             echo "No changes."
           else
             git commit -m "chore: update contributors"
+            git pull --rebase origin main
             git push
           fi
