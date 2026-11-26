@@ -501,6 +501,7 @@
 <!-- CONTRIBUTORS:START -->
 <p align="center">
   <a href="https://github.com/nikomarinovic"><img src=".github/avatars/nikomarinovic.svg" width="64" height="64" alt="nikomarinovic" title="nikomarinovic" /></a>
+  <a href="https://github.com/Berry-hcy"><img src=".github/avatars/Berry-hcy.svg" width="64" height="64" alt="Berry-hcy" title="Berry-hcy" /></a>
   <a href="https://github.com/SSShooter"><img src=".github/avatars/SSShooter.svg" width="64" height="64" alt="SSShooter" title="SSShooter" /></a>
   <a href="https://github.com/pranshuchittora"><img src=".github/avatars/pranshuchittora.svg" width="64" height="64" alt="pranshuchittora" title="pranshuchittora" /></a>
   <a href="https://github.com/stewones"><img src=".github/avatars/stewones.svg" width="64" height="64" alt="stewones" title="stewones" /></a>
