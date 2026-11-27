@@ -188,6 +188,7 @@
 
 - [MapCN](https://mapcn.vercel.app) — customizable map components for modern web applications.
 - [MapCN GitHub Repository](https://github.com/AnmolSaini16/mapcn) — source repository for MapCN.
+- [StagePeek](https://stagepeek.live) — Interactive 2D seating maps and 3D concert stage-view simulator covering 201 stadiums, domes, and arenas worldwide with 1x–10x smartphone camera zoom framing (End, Thrust Runway, and 360° Center layouts) and 536+.
 
 <h3 id="testing--prototyping">Testing & Prototyping</h3>
 
@@ -513,6 +514,7 @@
   <a href="https://github.com/tumingke0"><img src=".github/avatars/tumingke0.svg" width="64" height="64" alt="tumingke0" title="tumingke0" /></a>
   <a href="https://github.com/seifip"><img src=".github/avatars/seifip.svg" width="64" height="64" alt="seifip" title="seifip" /></a>
   <a href="https://github.com/happynocode"><img src=".github/avatars/happynocode.svg" width="64" height="64" alt="happynocode" title="happynocode" /></a>
+  <a href="https://github.com/Hinstein"><img src=".github/avatars/Hinstein.svg" width="64" height="64" alt="Hinstein" title="Hinstein" /></a>
 </p>
 <!-- CONTRIBUTORS:END -->
 
